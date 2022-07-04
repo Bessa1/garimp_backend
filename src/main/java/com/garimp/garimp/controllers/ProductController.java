@@ -16,7 +16,6 @@ import com.garimp.garimp.services.UserService;
 
 @RestController
 @RequestMapping("/produtos")
-
 public class ProductController {
     @Autowired 
     ProductService service ;

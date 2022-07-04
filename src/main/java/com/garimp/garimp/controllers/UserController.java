@@ -3,6 +3,7 @@ package com.garimp.garimp.controllers;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -13,6 +14,7 @@ import com.garimp.garimp.entities.User;
 import com.garimp.garimp.services.UserService;
 
 @RestController
+@CrossOrigin
 @RequestMapping("/usuarios")
 
 public class UserController {
